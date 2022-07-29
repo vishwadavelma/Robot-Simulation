@@ -110,22 +110,4 @@ public class RobotSimulateServiceTest {
         Assert.assertEquals(robotModelWest.getDirection(), "NORTH");
     }
 
-
-    @Test
-    public void testReportCommand() {
-        RobotModel robotModelNorth = new RobotModel(2, 2, "NORTH", "ROBOT 2");
-        RobotModel robotModelSouth = new RobotModel(2, 2, "SOUTH", "ROBOT 2");
-        RobotModel robotModelEast = new RobotModel(2, 2, "EAST", "ROBOT 2");
-        RobotModel robotModelWest = new RobotModel(2, 2, "WEST", "ROBOT 2");
-
-        roboService.moveRight(robotModelNorth);
-        roboService.moveRight(robotModelSouth);
-        roboService.moveRight(robotModelEast);
-        roboService.moveRight(robotModelWest);
-
-        Assert.assertEquals(robotModelNorth.getDirection(), "EAST");
-        Assert.assertEquals(robotModelSouth.getDirection(), "WEST");
-        Assert.assertEquals(robotModelEast.getDirection(), "SOUTH");
-        Assert.assertEquals(robotModelWest.getDirection(), "NORTH");
-    }
 }

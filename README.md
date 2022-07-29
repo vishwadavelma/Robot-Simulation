@@ -1,7 +1,7 @@
-#Robot-Simulation-Challenge
+# Robot-Simulation-Challenge
     This project simulates multiple toy robots on a square tabletop of dimensions 5 units x 5 units.
 
-#Description
+# Description
     This application can read the below commands:
     
     1.PLACE X,Y,F --> where X,Y are position coordinates and F is the direction facing(NORTH,SOUTH,EAST,WEST)
@@ -15,19 +15,19 @@
     6.ROBOT <number> --> Makes the ROBOT <number> active. By default, First placed robot is active.
     7.STOP --> To terminate the program
 
-#Prerequisites
+# Prerequisites
     1. Java 17.0.1
     2. Maven 3.8.4
 
-#Build and Run application
+# Build and Run application
 
     1.In home directory m2 folder, add settings.xml file pointing to the public maven repository to download all dependencies required.
     2.Run the command 'mvn clean install'.
     3.Run the application using RobotSimulationApplication main class
 
-#Locally tested output
+# Locally tested output
 
-#Output 1:
+# Output 1:
     Welcome to the Robot Simulation!! 
     You can simulate robot using the following commands 
 
@@ -88,7 +88,7 @@
     Terminating the program!!
 
 
-#Output 2:
+# Output 2:
 
     Welcome to the Robot Simulation!! 
     You can simulate robot using the following commands 
